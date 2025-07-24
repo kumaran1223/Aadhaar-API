@@ -9,7 +9,7 @@
 
 **A complete full-stack web application for Aadhaar document processing using advanced OCR technology**
 
-[🚀 Quick Start](#-quick-start) • [📚 Documentation](#-api-documentation) • [🐳 Docker](#-docker-deployment) • [🤝 Contributing](#-contributing)
+
 
 </div>
 
