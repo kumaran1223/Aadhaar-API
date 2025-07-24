@@ -1,16 +1,63 @@
-# Aadhaar OCR API
+# 🆔 Aadhaar OCR API
 
-A complete full-stack web application that allows users to upload Aadhaar PDF or image files, extract details using OCR, and store them in a Supabase PostgreSQL database.
+<div align="center">
 
-## Features
+![Aadhaar OCR API](https://img.shields.io/badge/Aadhaar-OCR%20API-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-red?style=for-the-badge&logo=fastapi)
+![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-orange?style=for-the-badge&logo=supabase)
 
-- 📄 **File Upload**: Support for PDF and image files (JPG, PNG, etc.)
-- 🔍 **OCR Processing**: Extract Aadhaar details using advanced OCR technology
-- 🗄️ **Database Storage**: Store extracted data in Supabase PostgreSQL
-- 🔍 **Data Retrieval**: Fetch Aadhaar data by Aadhaar number
-- 📚 **API Documentation**: Interactive Swagger/OpenAPI docs
-- 🌐 **Web Interface**: Simple frontend for testing uploads
-- 🐳 **Docker Support**: Containerized deployment
+**A complete full-stack web application for Aadhaar document processing using advanced OCR technology**
+
+[🚀 Quick Start](#-quick-start) • [📚 Documentation](#-api-documentation) • [🐳 Docker](#-docker-deployment) • [🤝 Contributing](#-contributing)
+
+</div>
+
+---
+
+## ✨ Features
+
+🔍 **Advanced OCR Processing**
+- PDF text extraction with password support
+- Multi-format image processing (JPG, PNG, BMP, TIFF)
+- Tamil and English text recognition
+- Intelligent Aadhaar detail parsing
+
+🗄️ **Hybrid Database System**
+- Local SQLite for immediate functionality
+- Supabase PostgreSQL for cloud storage
+- Automatic fallback mechanism
+- Real-time data synchronization
+
+🌐 **Modern Web Interface**
+- Responsive HTML/CSS/JavaScript frontend
+- Drag-and-drop file upload
+- Real-time search functionality
+- Beautiful UI with animations
+
+🚀 **Production Ready**
+- Docker containerization
+- Comprehensive API documentation
+- Health monitoring endpoints
+- Automated setup scripts
+
+## 🎯 What It Does
+
+This application allows you to:
+
+1. **📤 Upload** Aadhaar documents (PDF or images)
+2. **🔍 Extract** all details using advanced OCR
+3. **💾 Store** data in local SQLite or cloud Supabase
+4. **🔎 Search** records by Aadhaar number
+5. **📊 Manage** data through web interface or API
+
+## 📸 Screenshots
+
+### Web Interface
+- **Upload Interface**: Drag-and-drop file upload with real-time processing
+- **Search Interface**: Quick search by Aadhaar number
+- **Results Display**: Beautiful table format with all extracted details
+- **API Documentation**: Interactive Swagger interface at `/docs`
 
 ## Technologies Used
 
